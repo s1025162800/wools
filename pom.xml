@@ -155,7 +155,23 @@
 			<artifactId>commons-io</artifactId>
 			<version>2.3</version>
 		</dependency>
-
+		<!--导入SpringJUnit4ClassRunner 单元测试类-->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>4.3.0.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>4.3.0.RELEASE</version>
+		</dependency>
 
 
 
@@ -180,7 +196,13 @@
 			<artifactId>javax.servlet.jsp.jstl</artifactId>
 			<version>1.2.2</version>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 	<build>
 		<plugins>
 			<plugin>
